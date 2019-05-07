@@ -1,1 +1,1 @@
-# -album_rater
+# album_rater
