@@ -1,0 +1,19 @@
+{
+    "pdg": {
+        "awscloudformation": {
+            "AuthRoleName": "albumrater-pdg-20190514162459-authRole",
+            "UnauthRoleArn": "arn:aws:iam::996346114347:role/albumrater-pdg-20190514162459-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::996346114347:role/albumrater-pdg-20190514162459-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "albumrater-pdg-20190514162459-deployment",
+            "UnauthRoleName": "albumrater-pdg-20190514162459-unauthRole",
+            "StackName": "albumrater-pdg-20190514162459",
+            "StackId": "arn:aws:cloudformation:us-east-2:996346114347:stack/albumrater-pdg-20190514162459/bb10e130-768e-11e9-8207-0633f2d4cbb0"
+        },
+        "categories": {
+            "auth": {
+                "cognito6f825cd3": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "AppSyncApiName": "ratings",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognito6f825cd3",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
