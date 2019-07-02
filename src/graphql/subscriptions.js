@@ -3,10 +3,10 @@
 
 export const onCreateAlbumReview = `subscription OnCreateAlbumReview {
   onCreateAlbumReview {
+    id
     name
     artistName
-    createdDate
-    upatedDate
+    updatedDate
     comments
     rating
   }
@@ -14,10 +14,10 @@ export const onCreateAlbumReview = `subscription OnCreateAlbumReview {
 `;
 export const onUpdateAlbumReview = `subscription OnUpdateAlbumReview {
   onUpdateAlbumReview {
+    id
     name
     artistName
-    createdDate
-    upatedDate
+    updatedDate
     comments
     rating
   }
@@ -25,10 +25,10 @@ export const onUpdateAlbumReview = `subscription OnUpdateAlbumReview {
 `;
 export const onDeleteAlbumReview = `subscription OnDeleteAlbumReview {
   onDeleteAlbumReview {
+    id
     name
     artistName
-    createdDate
-    upatedDate
+    updatedDate
     comments
     rating
   }

@@ -1,8 +1,8 @@
 projects:
   ratings:
-    schemaPath: src/graphql/schema.json
+    schemaPath: amplify/backend/api/ratings/src/graphql/schema.json
     includes:
-      - ''
+      - src/graphql/**/*.js
     excludes:
       - ./amplify/**
     extensions:

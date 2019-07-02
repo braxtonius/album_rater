@@ -3,10 +3,10 @@
 
 export const createAlbumReview = `mutation CreateAlbumReview($input: CreateAlbumReviewInput!) {
   createAlbumReview(input: $input) {
+    id
     name
     artistName
-    createdDate
-    upatedDate
+    updatedDate
     comments
     rating
   }
@@ -14,10 +14,10 @@ export const createAlbumReview = `mutation CreateAlbumReview($input: CreateAlbum
 `;
 export const updateAlbumReview = `mutation UpdateAlbumReview($input: UpdateAlbumReviewInput!) {
   updateAlbumReview(input: $input) {
+    id
     name
     artistName
-    createdDate
-    upatedDate
+    updatedDate
     comments
     rating
   }
@@ -25,10 +25,10 @@ export const updateAlbumReview = `mutation UpdateAlbumReview($input: UpdateAlbum
 `;
 export const deleteAlbumReview = `mutation DeleteAlbumReview($input: DeleteAlbumReviewInput!) {
   deleteAlbumReview(input: $input) {
+    id
     name
     artistName
-    createdDate
-    upatedDate
+    updatedDate
     comments
     rating
   }

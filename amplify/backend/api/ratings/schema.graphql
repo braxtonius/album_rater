@@ -1,17 +1,8 @@
 type AlbumReview @model @auth(rules: [{allow: owner}]) {
+ id: ID!,
  name: String!
  artistName: String!
- createdDate: Int!
- upatedDate: Int!
+ updatedDate: Int
  comments: String
- rating: StarRating
-}
-
-enum StarRating {
-  FIVE
-  FOUR
-  THREE
-  TWO
-  ONE
-  ZERO
+ rating: Int!
 }

@@ -3,10 +3,10 @@
 
 export const getAlbumReview = `query GetAlbumReview($id: ID!) {
   getAlbumReview(id: $id) {
+    id
     name
     artistName
-    createdDate
-    upatedDate
+    updatedDate
     comments
     rating
   }
@@ -19,10 +19,10 @@ export const listAlbumReviews = `query ListAlbumReviews(
 ) {
   listAlbumReviews(filter: $filter, limit: $limit, nextToken: $nextToken) {
     items {
+      id
       name
       artistName
-      createdDate
-      upatedDate
+      updatedDate
       comments
       rating
     }

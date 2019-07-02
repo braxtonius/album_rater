@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Amplify, {API,graphqlOperation} from 'aws-amplify';
+import { withAuthenticator } from 'aws-amplify-react';
+import aws_exports from './aws-exports';
+Amplify.configure(aws_exports);
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
